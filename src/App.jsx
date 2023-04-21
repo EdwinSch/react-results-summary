@@ -1,11 +1,12 @@
-import viteLogo from "/vite.svg";
 import "./App.css";
+import stats from "./data.json";
+import Totals from "./components/Totals";
 
 function App() {
   return (
-    <>
-      <h1>hello</h1>
-    </>
+    <main>
+      <Totals />
+    </main>
   );
 }
 
