@@ -123,3 +123,37 @@ button {
 button:hover {
   background: var(--purpleGradient);
 }
+
+/*---- Single Result in Summary ----*/
+
+.result-wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ff5555;
+  height: 56px;
+  border-radius: 12px;
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 15px;
+}
+.flex-wrapper {
+  display: flex;
+}
+.score {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgba(48, 59, 89, 0.5);
+}
+.score span {
+  color: #303b59;
+}
