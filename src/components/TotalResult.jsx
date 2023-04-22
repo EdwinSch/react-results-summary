@@ -18,8 +18,7 @@ const Totals = () => {
       </div>
       <p className="motivator">Great</p>
       <p className="descr">
-        Your performance exceed 65% <br /> of the people conducting the
-        <br /> test here!
+        Your performance exceed 65% of the people conducting the test here!
       </p>
     </section>
   );
