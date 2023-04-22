@@ -5,7 +5,7 @@ function calculateTotals() {
   for (let i = 0; i < stats.length; i++) {
     totalScore += stats[i].score;
   }
-  return Math.floor(totalScore / stats.length);
+  return Math.round(totalScore / stats.length);
 }
 
 const Totals = () => {
