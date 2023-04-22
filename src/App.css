@@ -100,12 +100,20 @@ h2 {
   /* border: var(--inspect); */
   flex: 1;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 h3 {
   font-size: 1.5rem;
   font-weight: 700;
   color: #303b59;
   text-transform: capitalize;
+}
+.single-results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 button {
   background: #303b59;
@@ -131,12 +139,6 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.95),
-      rgba(255, 255, 255, 0.95)
-    ),
-    #ff5555;
   height: 56px;
   border-radius: 12px;
 }

@@ -1,4 +1,4 @@
-import stats from "../data.json";
+import { stats } from "../data.js";
 
 function calculateTotals() {
   let totalScore = 0;
